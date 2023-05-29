@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="414.0" prefWidth="349.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.szkola.HelloController">
+   <children>
+      <TextField fx:id="Param1" prefHeight="81.0" prefWidth="296.0" promptText="Parametr1" />
+      <TextField fx:id="Param2" prefHeight="82.0" prefWidth="296.0" promptText="Parametr2" />
+      <Button fx:id="Teachers" mnemonicParsing="false" onAction="#onTeachers" prefHeight="77.0" prefWidth="354.0" text="Nauczyciele" />
+      <Button fx:id="Compete" mnemonicParsing="false" onAction="#onCompete" prefHeight="77.0" prefWidth="354.0" text="Konkursy" />
+      <Button fx:id="Students" mnemonicParsing="false" onAction="#onStudents" prefHeight="78.0" prefWidth="354.0" text="Uczniowie" />
+      <Button fx:id="Trip" mnemonicParsing="false" onAction="#onTrip" prefHeight="80.0" prefWidth="357.0" text="Wycieczki" />
+      <Button fx:id="Form" mnemonicParsing="false" onAction="#onForm" prefHeight="77.0" prefWidth="368.0" text="Dyplom" />
+   </children>
+</VBox>
